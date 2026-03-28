@@ -6,14 +6,14 @@ pipeline {
         stage('build') {
             steps {
                 script {
-                    echo "Building the application..."
+                    echo "Building the application... Rashed is the best!"
                 }
             }
         }
         stage('test') {
             steps {
                 script {
-                    echo "Testing the application..."
+                    echo "Testing th e application... Rashed is agian best"
                 }
             }
         }
